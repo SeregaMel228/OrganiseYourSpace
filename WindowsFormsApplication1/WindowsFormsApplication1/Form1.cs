@@ -24,8 +24,8 @@ namespace WindowsFormsApplication1
         private void Form1_Load(object sender, EventArgs e)
         {
             Dictionary<string, string> name = new Dictionary<string, string>();
-            Dictionary<string, string> mass = new Dictionary<string, string>();
-            Dictionary<string, string> press = new Dictionary<string, string>();
+            Dictionary<double, double> mass = new Dictionary<double, double>();
+            Dictionary<int, int> press = new Dictionary<int, int>();
             Dictionary<string, string> habit = new Dictionary<string, string>();
             Dictionary<string, string> sience = new Dictionary<string, string>();
             name.Add("Зира", "");
@@ -33,6 +33,7 @@ namespace WindowsFormsApplication1
             name.Add("Фасп", "");
             name.Add("Моран", "");
             name.Add("Ка сп","");
+            mass.Add("")
         }
 
         private void button2_Click(object sender, EventArgs e)
