@@ -141,5 +141,43 @@ namespace WindowsFormsApplication1
         {
             pictureBox4.Size = new Size(160, 164);
         }
+
+        private void pictureBox6_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox6.Size = new Size(159, 149);
+        }
+
+        private void pictureBox6_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox6.Size = new Size(129, 119);
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox1.Size = new Size(208, 203);
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox1.Size = new Size(178, 173);
+        }
+
+        private void pictureBox7_MouseHover(object sender, EventArgs e)
+        {
+            
+            pictureBox7.Size = new Size(88, 90);
+        }
+
+        private void pictureBox7_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox7.Size = new Size(58, 60);
+
+        }
     }
 }
