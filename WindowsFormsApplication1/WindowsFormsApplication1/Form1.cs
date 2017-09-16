@@ -35,56 +35,13 @@ namespace WindowsFormsApplication1
             name.Add("Маджипур", "");
             name.Add("Мир Реки", "");
             name.Add("Бетурум", "");
-          /*  mass.Add("5,9726·10^24");
-            mass.Add("");
-            mass.Add("");
-            mass.Add("");
-            mass.Add("");
-            mass.Add("");
-            mass.Add("");
-            press.Add("");
-            press.Add("");
-            press.Add("");
-            press.Add("");
-            press.Add("");
-            press.Add("");
-            press.Add("");
-            habit.Add("");
-            habit.Add("");
-            habit.Add("");
-            habit.Add("");
-            habit.Add("");
-            habit.Add("");
-            habit.Add("");
-            sience.Add("");
-            sience.Add("");
-            sience.Add("");
-            sience.Add("");
-            sience.Add("");
-            sience.Add("");
-            sience.Add("");*/
+      
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
+ 
 
-        }
+  
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            
-            
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void Form1_Load_1(object sender, EventArgs e)
         {
@@ -102,10 +59,7 @@ namespace WindowsFormsApplication1
             pictureBox9.Size = new Size(130, 135);
         }
 
-        private void pictureBox8_Click(object sender, EventArgs e)
-        {
-
-        }
+     
 
         private void pictureBox8_MouseHover(object sender, EventArgs e)
         {
@@ -127,10 +81,7 @@ namespace WindowsFormsApplication1
             pictureBox3.Size = new Size(137, 139);
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void pictureBox4_MouseHover(object sender, EventArgs e)
         {
@@ -153,10 +104,7 @@ namespace WindowsFormsApplication1
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
+     
 
         private void pictureBox1_MouseHover(object sender, EventArgs e)
         {
