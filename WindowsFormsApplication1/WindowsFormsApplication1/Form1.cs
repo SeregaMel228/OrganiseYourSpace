@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApplication1;
 
-namespace WindowsFormsApplication1
+namespace OYS
 {
     public partial class Form1 : Form
     {
@@ -23,72 +24,87 @@ namespace WindowsFormsApplication1
         
         private void Form1_Load(object sender, EventArgs e)
         {
-            Dictionary<string, string> name = new Dictionary<string, string>();
-            Dictionary<double, double> mass = new Dictionary<double, double>();
-            Dictionary<int, int> press = new Dictionary<int, int>();
-            Dictionary<string, string> habit = new Dictionary<string, string>();
-            Dictionary<string, string> sience = new Dictionary<string, string>();
-            name.Add("Зира", "");
-            name.Add("Шелезяка", "");
-            name.Add("Нибиру", "");
-            name.Add("Юггот", "");
-            name.Add("Маджипур", "");
-            name.Add("Мир Реки", "");
-            name.Add("Бетурум", "");
-            mass.Add("5,9726·10^24");
-            mass.Add("");
-            mass.Add("");
-            mass.Add("");
-            mass.Add("");
-            mass.Add("");
-            mass.Add("");
-            press.Add("");
-            press.Add("");
-            press.Add("");
-            press.Add("");
-            press.Add("");
-            press.Add("");
-            press.Add("");
-            habit.Add("");
-            habit.Add("");
-            habit.Add("");
-            habit.Add("");
-            habit.Add("");
-            habit.Add("");
-            habit.Add("");
-            sience.Add("");
-            sience.Add("");
-            sience.Add("");
-            sience.Add("");
-            sience.Add("");
-            sience.Add("");
-            sience.Add("");
+            
+            
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-           
-        }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            
-            
+            Form2 form = new Form2();
+            form.textBox1.Text = "Шелизяка";
+            form.textBox2.Text = "10^24";
+            form.textBox3.Text = "~147 Па";
+            form.textBox4.Text = "Роботы";
+            form.textBox5.Text = "Изучена на 3%";
+            form.Show();
+        }        
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.textBox1.Text = "Нибуру";
+            form.textBox2.Text = "10^24";
+            form.textBox3.Text = "~156 Па";
+            form.textBox4.Text = "Монстры";
+            form.textBox5.Text = "Изучена на 15%";
+            form.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void pictureBox6_Click(object sender, EventArgs e)
         {
-
+            Form2 form = new Form2();
+            form.textBox1.Text = "Юггот";
+            form.textBox2.Text = "10^24";
+            form.textBox3.Text = "~163 Па";
+            form.textBox4.Text = "Микробы";
+            form.textBox5.Text = "Изучена на 50%";
+            form.Show();
         }
 
-        private void Form1_Load_1(object sender, EventArgs e)
+        private void pictureBox10_Click(object sender, EventArgs e)
         {
+            Form2 form = new Form2();
+            form.textBox1.Text = "Маджипур";
+            form.textBox2.Text = "10^24";
+            form.textBox3.Text = "~124 Па";
+            form.textBox4.Text = "Животные";
+            form.textBox5.Text = "Изучена на 63%";
+            form.Show();
+        }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.textBox1.Text = "Земля";
+            form.textBox2.Text = "5,9726·10^24";
+            form.textBox3.Text = "~133 Па";
+            form.textBox4.Text = "Люди, животные, бактерии и др.";
+            form.textBox5.Text = "Изучена на 74%";
+            form.Show();
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.textBox1.Text = "Бетурум";
+            form.textBox2.Text = "10^24";
+            form.textBox3.Text = "~143 Па";
+            form.textBox4.Text = "Микробы и бактерии";
+            form.textBox5.Text = "Изучена на 10%";
+            form.Show();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.textBox1.Text = "Мируеки";
+            form.textBox2.Text = "10^24 ";
+            form.textBox3.Text = "~135 Па";
+            form.textBox4.Text = "Рыбы";
+            form.textBox5.Text = "Изучена на 34%";
+            form.Show();
         }
     }
 }
