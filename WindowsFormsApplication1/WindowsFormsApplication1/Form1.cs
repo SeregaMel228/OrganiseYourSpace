@@ -23,7 +23,16 @@ namespace WindowsFormsApplication1
         
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            Dictionary<string, string> name = new Dictionary<string, string>();
+            Dictionary<string, string> mass = new Dictionary<string, string>();
+            Dictionary<string, string> press = new Dictionary<string, string>();
+            Dictionary<string, string> habit = new Dictionary<string, string>();
+            Dictionary<string, string> sience = new Dictionary<string, string>();
+            name.Add("Зира", "");
+            name.Add("Мпорт", "");
+            name.Add("Пр", "");
+            name.Add("", "");
+            name.Add("","");
         }
 
         private void button2_Click(object sender, EventArgs e)
