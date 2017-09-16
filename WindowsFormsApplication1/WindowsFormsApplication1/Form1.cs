@@ -30,9 +30,9 @@ namespace WindowsFormsApplication1
             Dictionary<string, string> sience = new Dictionary<string, string>();
             name.Add("Зира", "");
             name.Add("Мпорт", "");
-            name.Add("Пр", "");
-            name.Add("", "");
-            name.Add("","");
+            name.Add("Фасп", "");
+            name.Add("Моран", "");
+            name.Add("Ка сп","");
         }
 
         private void button2_Click(object sender, EventArgs e)
