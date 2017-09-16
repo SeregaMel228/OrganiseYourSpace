@@ -13,11 +13,23 @@ namespace WindowsFormsApplication1
     public partial class Form2 : Form
     {
         public Form2()
+            
+
         {
             InitializeComponent();
         }
 
         private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
