@@ -30,49 +30,10 @@ namespace OYS
 
 
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            Form2 form = new Form2();
-            form.textBox1.Text = "Шелизяка";
-            form.textBox2.Text = "9•10^24";
-            form.textBox3.Text = "~147 Па";
-            form.textBox4.Text = "Роботы";
-            form.textBox5.Text = "Изучена на 3%";
-            form.Show();
-        }        
+ 
 
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            Form2 form = new Form2();
-            form.textBox1.Text = "Земля";
-            form.textBox2.Text = "6•10^24";
-            form.textBox3.Text = "~133 Па";
-            form.textBox4.Text = "Люди, животные, бактерии и др.";
-            form.textBox5.Text = "Изучена на 74%";
-            form.Show();
-        }
+  
 
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-            Form2 form = new Form2();
-            form.textBox1.Text = "Юггот";
-            form.textBox2.Text = "8•10^24";
-            form.textBox3.Text = "~163 Па";
-            form.textBox4.Text = "Микробы";
-            form.textBox5.Text = "Изучена на 50%";
-            form.Show();
-        }
-
-        private void pictureBox8_Click(object sender, EventArgs e)
-        {
-            Form2 form = new Form2();
-            form.textBox1.Text = "Маджипур";
-            form.textBox2.Text = "3•10^24";
-            form.textBox3.Text = "~124 Па";
-            form.textBox4.Text = "Животные";
-            form.textBox5.Text = "Изучена на 63%";
-            form.Show();
-        }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
