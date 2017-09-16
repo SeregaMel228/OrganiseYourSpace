@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace OYS
 {
     partial class Form1
     {
@@ -124,6 +124,7 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 13;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             this.pictureBox6.MouseLeave += new System.EventHandler(this.pictureBox6_MouseLeave);
             this.pictureBox6.MouseHover += new System.EventHandler(this.pictureBox6_MouseHover);
             // 
@@ -137,6 +138,7 @@
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 14;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             this.pictureBox7.MouseLeave += new System.EventHandler(this.pictureBox7_MouseLeave);
             this.pictureBox7.MouseHover += new System.EventHandler(this.pictureBox7_MouseHover);
             // 
@@ -164,6 +166,7 @@
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox9.TabIndex = 16;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click_1);
             this.pictureBox9.MouseLeave += new System.EventHandler(this.pictureBox9_MouseLeave);
             this.pictureBox9.MouseHover += new System.EventHandler(this.pictureBox9_MouseHover);
             // 
@@ -187,7 +190,7 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load_1);
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

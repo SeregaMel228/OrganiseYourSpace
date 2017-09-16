@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApplication1;
 
-namespace WindowsFormsApplication1
+namespace OYS
 {
     public partial class Form1 : Form
     {
@@ -24,33 +25,20 @@ namespace WindowsFormsApplication1
         private void Form1_Load(object sender, EventArgs e)
         {
             
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
             
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-           
+            Form2 form = new Form2();
+            form.textBox1.Text = "Нибуру";
+            form.textBox2.Text = "5•10^24";
+            form.textBox3.Text = "~156 Па";
+            form.textBox4.Text = "Монстры";
+            form.textBox5.Text = "Изучена на 15%";
+            form.Show();
         }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            
-            
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load_1(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void pictureBox9_MouseHover(object sender, EventArgs e)
         {
@@ -63,10 +51,7 @@ namespace WindowsFormsApplication1
             pictureBox9.Size = new Size(130, 135);
         }
 
-        private void pictureBox8_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void pictureBox8_MouseHover(object sender, EventArgs e)
         {
@@ -88,10 +73,7 @@ namespace WindowsFormsApplication1
             pictureBox3.Size = new Size(137, 139);
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void pictureBox4_MouseHover(object sender, EventArgs e)
         {
@@ -114,10 +96,7 @@ namespace WindowsFormsApplication1
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void pictureBox1_MouseHover(object sender, EventArgs e)
         {
@@ -139,6 +118,71 @@ namespace WindowsFormsApplication1
         {
             pictureBox7.Size = new Size(58, 60);
 
+        }
+
+        private void pictureBox9_Click_1(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.textBox1.Text = "Мируеки";
+            form.textBox2.Text = "6•10^24";
+            form.textBox3.Text = "~135 Па";
+            form.textBox4.Text = "Микробы и бактерии";
+            form.textBox5.Text = "Изучена на 6%";
+            form.Show();
+        }
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.textBox1.Text = "Бетурум";
+            form.textBox2.Text = "2•10^24";
+            form.textBox3.Text = "~143 Па";
+            form.textBox4.Text = "Микробы и бактерии";
+            form.textBox5.Text = "Изучена на 10%";
+            form.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.textBox1.Text = "Земля";
+            form.textBox2.Text = "6•10^24";
+            form.textBox3.Text = "~133 Па";
+            form.textBox4.Text = "Люди, животные и др.";
+            form.textBox5.Text = "Изучена на 74%";
+            form.Show();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.textBox1.Text = "Маджипур";
+            form.textBox2.Text = "5•10^24";
+            form.textBox3.Text = "~146 Па";
+            form.textBox4.Text = "Морская фауна";
+            form.textBox5.Text = "Изучена на 9%";
+            form.Show();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.textBox1.Text = "Юггот";
+            form.textBox2.Text = "7•10^24";
+            form.textBox3.Text = "~123 Па";
+            form.textBox4.Text = "Монстры";
+            form.textBox5.Text = "Изучена на 12%";
+            form.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.textBox1.Text = "Шелизяка";
+            form.textBox2.Text = "4.5•10^24";
+            form.textBox3.Text = "~135 Па";
+            form.textBox4.Text = "Роботы";
+            form.textBox5.Text = "Изучена на 16%";
+            form.Show();
         }
     }
 }
