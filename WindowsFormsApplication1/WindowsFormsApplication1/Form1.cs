@@ -63,7 +63,7 @@ namespace OYS
             form.Show();
         }
 
-        private void pictureBox10_Click(object sender, EventArgs e)
+        private void pictureBox8_Click(object sender, EventArgs e)
         {
             Form2 form = new Form2();
             form.textBox1.Text = "Маджипур";
@@ -84,18 +84,6 @@ namespace OYS
             form.textBox5.Text = "Изучена на 15%";
             form.Show();
         }
-
-        private void pictureBox9_Click(object sender, EventArgs e)
-        {
-            Form2 form = new Form2();
-            form.textBox1.Text = "Бетурум";
-            form.textBox2.Text = "4•10^24";
-            form.textBox3.Text = "~143 Па";
-            form.textBox4.Text = "Микробы и бактерии";
-            form.textBox5.Text = "Изучена на 10%";
-            form.Show();
-        }
-
         
 
         private void pictureBox9_MouseHover(object sender, EventArgs e)
@@ -154,10 +142,7 @@ namespace OYS
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void pictureBox1_MouseHover(object sender, EventArgs e)
         {
@@ -179,6 +164,27 @@ namespace OYS
         {
             pictureBox7.Size = new Size(58, 60);
 
+        }
+
+        private void pictureBox9_Click_1(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.textBox1.Text = "Мируеки";
+            form.textBox2.Text = "6•10^24";
+            form.textBox3.Text = "~135 Па";
+            form.textBox4.Text = "Микробы и бактерии";
+            form.textBox5.Text = "Изучена на 6%";
+            form.Show();
+        }
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.textBox1.Text = "Бетурум";
+            form.textBox2.Text = "4•10^24";
+            form.textBox3.Text = "~143 Па";
+            form.textBox4.Text = "Микробы и бактерии";
+            form.textBox5.Text = "Изучена на 10%";
+            form.Show();
         }
     }
 }

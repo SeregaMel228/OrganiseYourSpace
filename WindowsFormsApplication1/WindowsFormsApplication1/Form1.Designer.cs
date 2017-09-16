@@ -124,6 +124,7 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 13;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             this.pictureBox6.MouseLeave += new System.EventHandler(this.pictureBox6_MouseLeave);
             this.pictureBox6.MouseHover += new System.EventHandler(this.pictureBox6_MouseHover);
             // 
@@ -137,6 +138,7 @@
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 14;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             this.pictureBox7.MouseLeave += new System.EventHandler(this.pictureBox7_MouseLeave);
             this.pictureBox7.MouseHover += new System.EventHandler(this.pictureBox7_MouseHover);
             // 
