@@ -143,6 +143,16 @@ namespace WindowsFormsApplication1.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap space_03_650x433 {
+            get {
+                object obj = ResourceManager.GetObject("space-03-650x433", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Без_названия {
             get {
                 object obj = ResourceManager.GetObject("Без названия", resourceCulture);

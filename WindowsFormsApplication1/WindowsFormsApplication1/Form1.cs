@@ -34,7 +34,7 @@ namespace OYS
         {
             Form2 form = new Form2();
             form.textBox1.Text = "Шелизяка";
-            form.textBox2.Text = "10^24";
+            form.textBox2.Text = "9•10^24";
             form.textBox3.Text = "~147 Па";
             form.textBox4.Text = "Роботы";
             form.textBox5.Text = "Изучена на 3%";
@@ -44,11 +44,11 @@ namespace OYS
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             Form2 form = new Form2();
-            form.textBox1.Text = "Нибуру";
-            form.textBox2.Text = "10^24";
-            form.textBox3.Text = "~156 Па";
-            form.textBox4.Text = "Монстры";
-            form.textBox5.Text = "Изучена на 15%";
+            form.textBox1.Text = "Земля";
+            form.textBox2.Text = "6•10^24";
+            form.textBox3.Text = "~133 Па";
+            form.textBox4.Text = "Люди, животные, бактерии и др.";
+            form.textBox5.Text = "Изучена на 74%";
             form.Show();
         }
 
@@ -56,7 +56,7 @@ namespace OYS
         {
             Form2 form = new Form2();
             form.textBox1.Text = "Юггот";
-            form.textBox2.Text = "10^24";
+            form.textBox2.Text = "8•10^24";
             form.textBox3.Text = "~163 Па";
             form.textBox4.Text = "Микробы";
             form.textBox5.Text = "Изучена на 50%";
@@ -67,7 +67,7 @@ namespace OYS
         {
             Form2 form = new Form2();
             form.textBox1.Text = "Маджипур";
-            form.textBox2.Text = "10^24";
+            form.textBox2.Text = "3•10^24";
             form.textBox3.Text = "~124 Па";
             form.textBox4.Text = "Животные";
             form.textBox5.Text = "Изучена на 63%";
@@ -77,11 +77,11 @@ namespace OYS
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             Form2 form = new Form2();
-            form.textBox1.Text = "Земля";
-            form.textBox2.Text = "5,9726·10^24";
-            form.textBox3.Text = "~133 Па";
-            form.textBox4.Text = "Люди, животные, бактерии и др.";
-            form.textBox5.Text = "Изучена на 74%";
+            form.textBox1.Text = "Нибуру";
+            form.textBox2.Text = "5•10^24";
+            form.textBox3.Text = "~156 Па";
+            form.textBox4.Text = "Монстры";
+            form.textBox5.Text = "Изучена на 15%";
             form.Show();
         }
 
@@ -89,14 +89,14 @@ namespace OYS
         {
             Form2 form = new Form2();
             form.textBox1.Text = "Бетурум";
-            form.textBox2.Text = "10^24";
+            form.textBox2.Text = "4•10^24";
             form.textBox3.Text = "~143 Па";
             form.textBox4.Text = "Микробы и бактерии";
             form.textBox5.Text = "Изучена на 10%";
             form.Show();
         }
 
-        }
+        
 
         private void pictureBox9_MouseHover(object sender, EventArgs e)
         {
@@ -109,10 +109,7 @@ namespace OYS
             pictureBox9.Size = new Size(130, 135);
         }
 
-        private void pictureBox8_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void pictureBox8_MouseHover(object sender, EventArgs e)
         {
@@ -134,10 +131,7 @@ namespace OYS
             pictureBox3.Size = new Size(137, 139);
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void pictureBox4_MouseHover(object sender, EventArgs e)
         {
@@ -147,6 +141,39 @@ namespace OYS
         private void pictureBox4_MouseLeave(object sender, EventArgs e)
         {
             pictureBox4.Size = new Size(160, 164);
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.textBox1.Text = "Крипт";
+            form.textBox2.Text = "7•10^24";
+            form.textBox3.Text = "~138 Па";
+            form.textBox4.Text = "Морские организмы";
+            form.textBox5.Text = "Изучена на 3.5%";
+            form.Show();
+        }
+
+        private void pictureBox9_Click_1(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.textBox1.Text = "Тренп";
+            form.textBox2.Text = "6•10^24";
+            form.textBox3.Text = "~143 Па";
+            form.textBox4.Text = "Морская флора";
+            form.textBox5.Text = "Изучена на 0.5%";
+            form.Show();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.textBox1.Text = "Маджипур";
+            form.textBox2.Text = "3•10^24";
+            form.textBox3.Text = "~124 Па";
+            form.textBox4.Text = "Животные";
+            form.textBox5.Text = "Изучена на 63%";
+            form.Show();
         }
     }
 }
