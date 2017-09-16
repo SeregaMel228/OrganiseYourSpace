@@ -143,37 +143,42 @@ namespace OYS
             pictureBox4.Size = new Size(160, 164);
         }
 
-        private void pictureBox8_Click(object sender, EventArgs e)
+        private void pictureBox6_MouseHover(object sender, EventArgs e)
         {
-            Form2 form = new Form2();
-            form.textBox1.Text = "Крипт";
-            form.textBox2.Text = "7•10^24";
-            form.textBox3.Text = "~138 Па";
-            form.textBox4.Text = "Морские организмы";
-            form.textBox5.Text = "Изучена на 3.5%";
-            form.Show();
+            pictureBox6.Size = new Size(159, 149);
         }
 
-        private void pictureBox9_Click_1(object sender, EventArgs e)
+        private void pictureBox6_MouseLeave(object sender, EventArgs e)
         {
-            Form2 form = new Form2();
-            form.textBox1.Text = "Тренп";
-            form.textBox2.Text = "6•10^24";
-            form.textBox3.Text = "~143 Па";
-            form.textBox4.Text = "Морская флора";
-            form.textBox5.Text = "Изучена на 0.5%";
-            form.Show();
+            pictureBox6.Size = new Size(129, 119);
+
         }
 
-        private void pictureBox7_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Form2 form = new Form2();
-            form.textBox1.Text = "Маджипур";
-            form.textBox2.Text = "3•10^24";
-            form.textBox3.Text = "~124 Па";
-            form.textBox4.Text = "Животные";
-            form.textBox5.Text = "Изучена на 63%";
-            form.Show();
+
+        }
+
+        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox1.Size = new Size(208, 203);
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox1.Size = new Size(178, 173);
+        }
+
+        private void pictureBox7_MouseHover(object sender, EventArgs e)
+        {
+            
+            pictureBox7.Size = new Size(88, 90);
+        }
+
+        private void pictureBox7_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox7.Size = new Size(58, 60);
+
         }
     }
 }
