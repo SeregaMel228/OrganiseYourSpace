@@ -20,45 +20,9 @@ namespace WindowsFormsApplication1
             
         }
 
-        
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            Dictionary<string, string> name = new Dictionary<string, string>();
-            Dictionary<string, string> mass = new Dictionary<string, string>();
-            Dictionary<string, string> press = new Dictionary<string, string>();
-            Dictionary<string, string> habit = new Dictionary<string, string>();
-            Dictionary<string, string> sience = new Dictionary<string, string>();
-            name.Add("Зира", "");
-            name.Add("Мпорт", "");
-            name.Add("Фасп", "");
-            name.Add("Моран", "");
-            name.Add("Ка сп","");
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            
-            
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load_1(object sender, EventArgs e)
-        {
-
         }
     }
 }
