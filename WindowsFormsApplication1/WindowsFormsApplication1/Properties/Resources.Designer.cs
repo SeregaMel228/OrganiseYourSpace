@@ -63,9 +63,9 @@ namespace WindowsFormsApplication1.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sun_nanoflares {
+        internal static System.Drawing.Bitmap Без_названия {
             get {
-                object obj = ResourceManager.GetObject("sun-nanoflares", resourceCulture);
+                object obj = ResourceManager.GetObject("Без названия", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

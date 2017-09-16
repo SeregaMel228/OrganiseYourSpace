@@ -16,15 +16,22 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+        
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            button5.FlatAppearance.BorderSize = 0;
+            button5.FlatStyle = FlatStyle.Flat;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }
