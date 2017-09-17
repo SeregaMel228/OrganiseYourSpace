@@ -105,37 +105,41 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(185, 40);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(145, 20);
             this.textBox1.TabIndex = 11;
-            
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(185, 83);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(145, 20);
             this.textBox2.TabIndex = 12;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(185, 121);
+            this.textBox3.Location = new System.Drawing.Point(185, 123);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(145, 20);
             this.textBox3.TabIndex = 13;
             // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(185, 165);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.ReadOnly = true;
+            this.textBox4.Size = new System.Drawing.Size(145, 20);
             this.textBox4.TabIndex = 14;
             // 
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(185, 203);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.ReadOnly = true;
+            this.textBox5.Size = new System.Drawing.Size(145, 20);
             this.textBox5.TabIndex = 15;
             this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
@@ -158,7 +162,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "OYS. Organize Your Space";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
