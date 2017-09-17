@@ -63,6 +63,16 @@ namespace WindowsFormsApplication1.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1415373436_imagesbase_ru_706 {
+            get {
+                object obj = ResourceManager.GetObject("1415373436_imagesbase.ru-706", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _97712683_gettyimages_2740385__1_ {
             get {
                 object obj = ResourceManager.GetObject("_97712683_gettyimages-2740385 (1)", resourceCulture);
@@ -136,6 +146,16 @@ namespace WindowsFormsApplication1.Properties {
         internal static System.Drawing.Bitmap images {
             get {
                 object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap space_03_650x433 {
+            get {
+                object obj = ResourceManager.GetObject("space-03-650x433", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
