@@ -146,7 +146,7 @@ namespace OYS
             Form2 form = new Form2();
             form.textBox1.Text = "Земля";
             form.textBox2.Text = "6•10^24";
-            form.textBox3.Text = "~133 Па";
+            form.textBox3.Text = "~766 Па";
             form.textBox4.Text = "Люди, животные и др.";
             form.textBox5.Text = "Изучена на 74%";
             form.Show();
@@ -179,7 +179,7 @@ namespace OYS
             Form2 form = new Form2();
             form.textBox1.Text = "Шелизяка";
             form.textBox2.Text = "4.5•10^24";
-            form.textBox3.Text = "~135 Па";
+            form.textBox3.Text = "~467 Па";
             form.textBox4.Text = "Роботы";
             form.textBox5.Text = "Изучена на 16%";
             form.Show();
